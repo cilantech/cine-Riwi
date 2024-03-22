@@ -5,13 +5,26 @@
     padding: 0;
     box-sizing: 0;
 }
-
+:root{
+    --azul-oscuro: #181E4B;
+    --color-texto: #a9a9a9;
+    --tama-text-normal: 15px;
+    
+}
 
 .header{
 
-    background-color: blueviolet;
+    background-color: var(--azul-oscuro);
+    color: var(--color-texto);
     display: flex;
+    font-size: var(--tama-text-normal);
     justify-content: space-between;
     align-items: center;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding: 0px 15px;
 
+}
+a{
+    text-decoration: none;
 }
